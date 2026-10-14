@@ -1,18 +1,36 @@
-# 你好，我是 五等分的商鞅 👋
+<div align="center">
 
-物联网工程在读（大二）· 方向：嵌入式软件
+# wdfdsyhb
 
-## 🔧 现在在做什么
+IoT engineering student · embedded + security. I build small tools for problems I actually hit, then open-source them.
 
-- 📘 正在学：C 语言（指针 / 内存 / 系统编程）
-- 🛠 当前项目：[serial-tool](https://github.com/wdfdsyhb/serial-tool) —— 纯 C 的命令行串口调试助手（虚拟串口自测，后续接入 ESP32）
-- 📖 正在读：[kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c)（纯 C99 的 LLM 推理引擎）源码，阅读笔记陆续更新
+中文交流 / EN ok
 
-## 🎯 方向与工具链
+</div>
 
-嵌入式开发 · IoT · 固件安全入门
-常用：ZCode / Codex（AI 辅助开发工作流）· 本地 LLM（Ollama）· Kali Linux
+## Tools
 
-## 📮 联系
+| tool | what it does |
+|---|---|
+| [fake200](https://github.com/wdfdsyhb/fake200) | Detect WAF fake-200 & soft-404 responses that poison recon results |
+| [skill-audit](https://github.com/wdfdsyhb/skill-audit) | Health check for AI agent skill libraries: dupes, lint, token cost |
+| [esp32-pinmap](https://github.com/wdfdsyhb/esp32-pinmap) | Which ESP32 GPIO is actually safe to use? Terminal lookup |
+| [fw-diff](https://github.com/wdfdsyhb/fw-diff) | Diff unpacked firmware rootfs trees between versions |
+| [scan-diff](https://github.com/wdfdsyhb/scan-diff) | Snapshot & diff recon target lists |
+| [tavern-card-lint](https://github.com/wdfdsyhb/tavern-card-lint) | Validate SillyTavern character cards before they break |
+| [gh-pick](https://github.com/wdfdsyhb/gh-pick) | Score GitHub repos before you depend on them |
+| [SerialLens](https://github.com/wdfdsyhb/SerialLens) | AI serial-port detective for UART traffic |
+| [comfy-preflight](https://github.com/wdfdsyhb/comfy-preflight) | ComfyUI workflow pre-flight checker (low VRAM friendly) |
+| [modbus-lens](https://github.com/wdfdsyhb/modbus-lens) | Recon for unknown Modbus RTU devices |
 
-- Issue 或 GitHub 私信
+## Agent skills & knowledge
+
+[src-hunter-enhanced](https://github.com/wdfdsyhb/src-hunter-enhanced) · [vuln-methodology](https://github.com/wdfdsyhb/vuln-methodology) · [security-handbook](https://github.com/wdfdsyhb/security-handbook) · [zcode-plugins-community](https://github.com/wdfdsyhb/zcode-plugins-community)
+
+## Now
+
+Learning C on ESP32 → firmware extraction & analysis → IoT security. Expect more embedded + security tools here.
+
+---
+
+⭐ Star what's useful · PRs welcome · 仅限授权测试 (authorized testing only)
